@@ -1,0 +1,124 @@
+:
+
+body {
+  font-family: Arial, sans-serif;
+  background:var(--bg-color);
+  padding: 20px;
+
+}
+
+body.dark {
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  --card-bg: #1e1e1e;
+  --button-bg: #006400;
+  --button-hover: #004d00;
+  --delete-bg: #8b0000;
+  --delete-hover: #b22222;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+.container {
+  background: var(--card-bg);
+}
+
+.form button {
+  background-color: var(--button-bg);
+}
+
+.form button:hover {
+  background-color: var(--button-hover);
+}
+
+button.delete-btn {
+  background-color: var(--delete-bg);
+}
+
+button.delete-btn:hover {
+  background-color: var(--delete-hover);
+}
+
+#theme-toggle {
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select,
+.form button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #218838;
+}
+
+.summary p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button.delete-btn:hover {
+  background-color: #c82333;
+}
